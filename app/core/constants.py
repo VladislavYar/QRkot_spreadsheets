@@ -41,16 +41,16 @@ DRIVE_VERSION = 'v3'
 SPREADSHEETS_BODY_SHEETS = (
     {
         'properties': {
-        'sheetType': 'GRID',
-        'sheetId': 0,
-        'title': 'Лист1',
-        'gridProperties': {
-            'rowCount': 100,
-            'columnCount': 11
+            'sheetType': 'GRID',
+            'sheetId': 0,
+            'title': 'Лист1',
+            'gridProperties': {
+                'rowCount': 100,
+                'columnCount': 11
             }
         }
     }
-    )
+)
 LOCALE = 'ru_RU'
 RANGE_TABLE_PROJECTS = 'A1:K100'
 TEXT_ONE_ROW_TABLE_PROJECTS = 'Отчет от'

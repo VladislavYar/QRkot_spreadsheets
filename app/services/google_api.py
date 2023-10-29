@@ -65,7 +65,7 @@ async def spreadsheets_update_value(
         (TEXT_ONE_ROW_TABLE_PROJECTS, now_date_time),
         TWO_ROW_TABLE_PROJECTS,
         FREE_ROW_TABLE_PROJECTS
-        
+
     ]
 
     for close_project in close_projects:
