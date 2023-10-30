@@ -56,3 +56,4 @@ RANGE_TABLE_PROJECTS = 'A1:K100'
 TEXT_ONE_ROW_TABLE_PROJECTS = 'Отчет от'
 TWO_ROW_TABLE_PROJECTS = ('Топ проектов по скорости закрытия', )
 FREE_ROW_TABLE_PROJECTS = ('Название проекта', 'Время сбора', 'Описание')
+INPUT_VALUE_OPTION_USER_ENTERED = 'USER_ENTERED'

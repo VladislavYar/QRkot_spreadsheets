@@ -4,7 +4,8 @@ from aiogoogle import Aiogoogle
 
 from app.core.config import settings
 from app.core.constants import (DRIVE, DRIVE_VERSION, FORMAT_DATETIME,
-                                FREE_ROW_TABLE_PROJECTS, LOCALE,
+                                FREE_ROW_TABLE_PROJECTS,
+                                INPUT_VALUE_OPTION_USER_ENTERED, LOCALE,
                                 RANGE_TABLE_PROJECTS, SHEETS, SHEETS_VERSION,
                                 SPREADSHEETS_BODY_SHEETS,
                                 TEXT_ONE_ROW_TABLE_PROJECTS,
@@ -84,7 +85,7 @@ async def spreadsheets_update_value(
         service.spreadsheets.values.update(
             spreadsheetId=spreadsheet_id,
             range=RANGE_TABLE_PROJECTS,
-            valueInputOption='USER_ENTERED',
+            valueInputOption=INPUT_VALUE_OPTION_USER_ENTERED,
             json=update_body
         )
     )
