@@ -24,6 +24,9 @@ pip install -r requirements.txt
 uvicorn app.main:app
 ```
 
+## Cтек проекта
+Python v3.9, FastAPI, SQLAlchemy, Google API
+
 ## Ручки:
 ### Auth
 ```
